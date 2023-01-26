@@ -1,0 +1,477 @@
+2022-12-29 16:11:52,157 [INFO] com.todo.raul.TodoApiApplication [restartedMain] Starting TodoApiApplication using Java 17.0.1 on DESKTOP-FAMG7R6 with PID 19812 (C:\Users\raulj\OneDrive\Documentos\TCS\USAASchool\Spring_with_springboot\todo-api\target\classes started by raulj in C:\Users\raulj\OneDrive\Documentos\TCS\USAASchool\Spring_with_springboot\todo-api)
+2022-12-29 16:11:52,157 [INFO] com.todo.raul.TodoApiApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-12-29 16:11:52,279 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-29 16:11:52,289 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 10 ms. Found 2 JPA repository interfaces.
+2022-12-29 16:11:52,354 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-12-29 16:11:52,355 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2022-12-29 16:11:52,356 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2022-12-29 16:11:52,369 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-12-29 16:11:52,370 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 212 ms
+2022-12-29 16:11:52,398 [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-29 16:11:52,402 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2022-12-29 16:11:52,424 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2022-12-29 16:11:52,425 [INFO] org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-12-29 16:11:52,469 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-29 16:11:52,470 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-29 16:11:52,529 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-29 16:11:52,550 [INFO] org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@411a178b, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5b5bbf1a, org.springframework.security.web.context.SecurityContextPersistenceFilter@263941bd, org.springframework.security.web.header.HeaderWriterFilter@61c029df, org.springframework.web.filter.CorsFilter@6a54e0f, org.springframework.security.web.authentication.logout.LogoutFilter@45f2cdd3, com.todo.raul.config.JWTAuthenticationFilter@217bb09a, com.todo.raul.config.JWTAuthorizationFilter@304c5d71, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4a4660ac, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2aa826ea, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@36e9870d, org.springframework.security.web.session.SessionManagementFilter@46b8b73a, org.springframework.security.web.access.ExceptionTranslationFilter@6920b660, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1e4727d6]
+2022-12-29 16:11:52,620 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-12-29 16:11:52,628 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-29 16:11:52,636 [INFO] com.todo.raul.TodoApiApplication [restartedMain] Started TodoApiApplication in 0.518 seconds (JVM running for 243.837)
+2022-12-29 16:11:52,638 [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-12-29 16:11:52,672 [INFO] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(15)-127.0.0.1] Application shutdown requested.
+2022-12-29 16:11:52,683 [INFO] org.apache.catalina.core.StandardService [RMI TCP Connection(15)-127.0.0.1] Stopping service [Tomcat]
+2022-12-29 16:11:52,687 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(15)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-29 16:11:52,688 [INFO] com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(15)-127.0.0.1] HikariPool-2 - Shutdown initiated...
+2022-12-29 16:11:52,692 [INFO] com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(15)-127.0.0.1] HikariPool-2 - Shutdown completed.
+2022-12-29 16:11:54,358 [INFO] com.todo.raul.TodoApiApplication [restartedMain] Starting TodoApiApplication using Java 17.0.1 on DESKTOP-FAMG7R6 with PID 17088 (C:\Users\raulj\OneDrive\Documentos\TCS\USAASchool\Spring_with_springboot\todo-api\target\classes started by raulj in C:\Users\raulj\OneDrive\Documentos\TCS\USAASchool\Spring_with_springboot\todo-api)
+2022-12-29 16:11:54,358 [INFO] com.todo.raul.TodoApiApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-12-29 16:11:54,395 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-12-29 16:11:54,395 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-12-29 16:11:54,874 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-29 16:11:54,915 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 34 ms. Found 2 JPA repository interfaces.
+2022-12-29 16:11:55,364 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-12-29 16:11:55,372 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2022-12-29 16:11:55,372 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.70]
+2022-12-29 16:11:55,433 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-12-29 16:11:55,434 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1038 ms
+2022-12-29 16:11:55,600 [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-29 16:11:55,632 [INFO] org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.14.Final
+2022-12-29 16:11:55,751 [INFO] org.hibernate.annotations.common.Version [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-29 16:11:55,818 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-12-29 16:11:56,086 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-12-29 16:11:56,097 [INFO] org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-12-29 16:11:56,567 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-29 16:11:56,573 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-29 16:11:56,853 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-29 16:11:56,983 [INFO] org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3de7760d, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@28060ad2, org.springframework.security.web.context.SecurityContextPersistenceFilter@258327b0, org.springframework.security.web.header.HeaderWriterFilter@4b28f0b6, org.springframework.web.filter.CorsFilter@37a88e90, org.springframework.security.web.authentication.logout.LogoutFilter@6c6afcdf, com.todo.raul.config.JWTAuthenticationFilter@4249a800, com.todo.raul.config.JWTAuthorizationFilter@4418e95a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@43d85a7a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@30e29f3e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5cd02b91, org.springframework.security.web.session.SessionManagementFilter@75a78dc4, org.springframework.security.web.access.ExceptionTranslationFilter@3092d145, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5b5dbf91]
+2022-12-29 16:11:57,223 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-12-29 16:11:57,254 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-29 16:11:57,262 [INFO] com.todo.raul.TodoApiApplication [restartedMain] Started TodoApiApplication in 3.194 seconds (JVM running for 3.801)
+2022-12-29 16:15:43,057 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-29 16:15:43,057 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2022-12-29 16:15:43,059 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Completed initialization in 0 ms
+2022-12-29 16:15:43,173 [INFO] com.todo.raul.controller.UserController [http-nio-8080-exec-2] User created
+2022-12-29 16:15:46,537 [INFO] com.todo.raul.controller.UserController [http-nio-8080-exec-3] User created
+2022-12-29 16:15:47,369 [INFO] com.todo.raul.controller.UserController [http-nio-8080-exec-4] User created
+2022-12-29 16:20:49,729 [INFO] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-12-29 16:20:49,744 [INFO] org.apache.catalina.core.StandardService [Thread-5] Stopping service [Tomcat]
+2022-12-29 16:20:49,752 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [Thread-5] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-12-29 16:20:49,759 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-29 16:20:49,761 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown initiated...
+2022-12-29 16:20:49,769 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown completed.
+[2022-12-29T16:20:49.049Z] [INFO] com.todo.raul.TodoApiApplication [restartedMain] Starting TodoApiApplication using Java 17.0.1 on DESKTOP-FAMG7R6 with PID 17088 (C:\Users\raulj\OneDrive\Documentos\TCS\USAASchool\Spring_with_springboot\todo-api\target\classes started by raulj in C:\Users\raulj\OneDrive\Documentos\TCS\USAASchool\Spring_with_springboot\todo-api)
+[2022-12-29T16:20:49.049Z] [INFO] com.todo.raul.TodoApiApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+[2022-12-29T16:20:49.049Z] [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-12-29T16:20:49.049Z] [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 16 ms. Found 2 JPA repository interfaces.
+[2022-12-29T16:20:50.050Z] [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+[2022-12-29T16:20:50.050Z] [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+[2022-12-29T16:20:50.050Z] [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.70]
+[2022-12-29T16:20:50.050Z] [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+[2022-12-29T16:20:50.050Z] [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 245 ms
+[2022-12-29T16:20:50.050Z] [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-12-29T16:20:50.050Z] [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+[2022-12-29T16:20:50.050Z] [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+[2022-12-29T16:20:50.050Z] [INFO] org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+[2022-12-29T16:20:50.050Z] [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-12-29T16:20:50.050Z] [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-12-29T16:20:50.050Z] [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-12-29T16:20:50.050Z] [INFO] org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6264d5a2, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3ec67bda, org.springframework.security.web.context.SecurityContextPersistenceFilter@719bbd8c, org.springframework.security.web.header.HeaderWriterFilter@387fbbcd, org.springframework.web.filter.CorsFilter@2e4d675c, org.springframework.security.web.authentication.logout.LogoutFilter@55ed9ba9, com.todo.raul.config.JWTAuthenticationFilter@7c3a63d7, com.todo.raul.config.JWTAuthorizationFilter@38377037, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@35cda967, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7029cdc0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@35a2c440, org.springframework.security.web.session.SessionManagementFilter@42c97bf0, org.springframework.security.web.access.ExceptionTranslationFilter@64d418c0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@460294e6]
+[2022-12-29T16:20:50.050Z] [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+[2022-12-29T16:20:50.050Z] [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+[2022-12-29T16:20:50.050Z] [INFO] com.todo.raul.TodoApiApplication [restartedMain] Started TodoApiApplication in 0.519 seconds (JVM running for 536.868)
+[2022-12-29T16:20:50.050Z] [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+[2022-12-29T16:21:57.057Z] [INFO] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(21)-127.0.0.1] Application shutdown requested.
+[2022-12-29T16:21:58.058Z] [INFO] org.apache.catalina.core.StandardService [RMI TCP Connection(21)-127.0.0.1] Stopping service [Tomcat]
+[2022-12-29T16:21:58.058Z] [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(21)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-12-29T16:21:58.058Z] [INFO] com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(21)-127.0.0.1] HikariPool-2 - Shutdown initiated...
+[2022-12-29T16:21:58.058Z] [INFO] com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(21)-127.0.0.1] HikariPool-2 - Shutdown completed.
+[2022-12-29T16:23:41.041Z] [INFO] com.todo.raul.TodoApiApplication [restartedMain] Starting TodoApiApplication using Java 17.0.1 on DESKTOP-FAMG7R6 with PID 22084 (C:\Users\raulj\OneDrive\Documentos\TCS\USAASchool\Spring_with_springboot\todo-api\target\classes started by raulj in C:\Users\raulj\OneDrive\Documentos\TCS\USAASchool\Spring_with_springboot\todo-api)
+[2022-12-29T16:23:41.041Z] [INFO] com.todo.raul.TodoApiApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+[2022-12-29T16:23:41.041Z] [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2022-12-29T16:23:41.041Z] [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2022-12-29T16:23:41.041Z] [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-12-29T16:23:41.041Z] [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 41 ms. Found 2 JPA repository interfaces.
+[2022-12-29T16:23:42.042Z] [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+[2022-12-29T16:23:42.042Z] [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+[2022-12-29T16:23:42.042Z] [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.70]
+[2022-12-29T16:23:42.042Z] [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+[2022-12-29T16:23:42.042Z] [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1399 ms
+[2022-12-29T16:23:42.042Z] [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-12-29T16:23:42.042Z] [INFO] org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.14.Final
+[2022-12-29T16:23:43.043Z] [INFO] org.hibernate.annotations.common.Version [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-12-29T16:23:43.043Z] [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+[2022-12-29T16:23:43.043Z] [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+[2022-12-29T16:23:43.043Z] [INFO] org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+[2022-12-29T16:23:43.043Z] [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-12-29T16:23:43.043Z] [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-12-29T16:23:44.044Z] [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-12-29T16:23:44.044Z] [INFO] org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@700cca, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@39b049de, org.springframework.security.web.context.SecurityContextPersistenceFilter@15882900, org.springframework.security.web.header.HeaderWriterFilter@36900c67, org.springframework.web.filter.CorsFilter@1e8425f4, org.springframework.security.web.authentication.logout.LogoutFilter@7dba92eb, com.todo.raul.config.JWTAuthenticationFilter@27c581cd, com.todo.raul.config.JWTAuthorizationFilter@27d3dfa3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@621e08cb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@44911802, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1c168c3e, org.springframework.security.web.session.SessionManagementFilter@3f3fd09c, org.springframework.security.web.access.ExceptionTranslationFilter@22876783, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7791a537]
+[2022-12-29T16:23:44.044Z] [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+[2022-12-29T16:23:44.044Z] [INFO] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 1 endpoint(s) beneath base path '/actuator'
+[2022-12-29T16:23:44.044Z] [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+[2022-12-29T16:23:44.044Z] [INFO] com.todo.raul.TodoApiApplication [restartedMain] Started TodoApiApplication in 3.997 seconds (JVM running for 4.583)
+[2022-12-29T16:23:45.045Z] [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [RMI TCP Connection(1)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-12-29T16:23:45.045Z] [INFO] org.springframework.web.servlet.DispatcherServlet [RMI TCP Connection(1)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+[2022-12-29T16:23:45.045Z] [INFO] org.springframework.web.servlet.DispatcherServlet [RMI TCP Connection(1)-127.0.0.1] Completed initialization in 0 ms
+[2022-12-29T16:24:31.031Z] [INFO] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[2022-12-29T16:24:31.031Z] [INFO] org.apache.catalina.core.StandardService [Thread-5] Stopping service [Tomcat]
+[2022-12-29T16:24:31.031Z] [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [Thread-5] Destroying Spring FrameworkServlet 'dispatcherServlet'
+[2022-12-29T16:24:31.031Z] [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-12-29T16:24:31.031Z] [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown initiated...
+[2022-12-29T16:24:31.031Z] [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown completed.
+[2022-12-29T16:24:31.031Z] [INFO] com.todo.raul.TodoApiApplication [restartedMain] Starting TodoApiApplication using Java 17.0.1 on DESKTOP-FAMG7R6 with PID 22084 (C:\Users\raulj\OneDrive\Documentos\TCS\USAASchool\Spring_with_springboot\todo-api\target\classes started by raulj in C:\Users\raulj\OneDrive\Documentos\TCS\USAASchool\Spring_with_springboot\todo-api)
+[2022-12-29T16:24:31.031Z] [INFO] com.todo.raul.TodoApiApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+[2022-12-29T16:24:31.031Z] [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-12-29T16:24:31.031Z] [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 8 ms. Found 2 JPA repository interfaces.
+[2022-12-29T16:24:31.031Z] [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+[2022-12-29T16:24:31.031Z] [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+[2022-12-29T16:24:31.031Z] [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.70]
+[2022-12-29T16:24:31.031Z] [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+[2022-12-29T16:24:31.031Z] [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 284 ms
+[2022-12-29T16:24:31.031Z] [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-12-29T16:24:31.031Z] [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+[2022-12-29T16:24:31.031Z] [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+[2022-12-29T16:24:31.031Z] [INFO] org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+[2022-12-29T16:24:31.031Z] [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-12-29T16:24:31.031Z] [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-12-29T16:24:31.031Z] [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-12-29T16:24:31.031Z] [INFO] org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@42f40dc6, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@707395a0, org.springframework.security.web.context.SecurityContextPersistenceFilter@4cb86f25, org.springframework.security.web.header.HeaderWriterFilter@132075a4, org.springframework.web.filter.CorsFilter@6f42f332, org.springframework.security.web.authentication.logout.LogoutFilter@2dc19ed4, com.todo.raul.config.JWTAuthenticationFilter@437a132a, com.todo.raul.config.JWTAuthorizationFilter@2182acbe, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@223a9234, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@32a74e82, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4db0f3bb, org.springframework.security.web.session.SessionManagementFilter@441a845d, org.springframework.security.web.access.ExceptionTranslationFilter@29a8e89e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6d183189]
+[2022-12-29T16:24:31.031Z] [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+[2022-12-29T16:24:31.031Z] [INFO] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 1 endpoint(s) beneath base path '/actuator'
+[2022-12-29T16:24:31.031Z] [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+[2022-12-29T16:24:31.031Z] [INFO] com.todo.raul.TodoApiApplication [restartedMain] Started TodoApiApplication in 0.656 seconds (JVM running for 51.659)
+[2022-12-29T16:24:31.031Z] [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+[2022-12-29T16:24:36.036Z] [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-4] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-12-29T16:24:36.036Z] [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-4] Initializing Servlet 'dispatcherServlet'
+[2022-12-29T16:24:36.036Z] [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-4] Completed initialization in 2 ms
+[2022-12-29T16:25:19.019Z] [INFO] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[2022-12-29T16:25:19.019Z] [INFO] org.apache.catalina.core.StandardService [Thread-7] Stopping service [Tomcat]
+[2022-12-29T16:25:19.019Z] [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [Thread-7] Destroying Spring FrameworkServlet 'dispatcherServlet'
+[2022-12-29T16:25:19.019Z] [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [Thread-7] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-12-29T16:25:19.019Z] [INFO] com.zaxxer.hikari.HikariDataSource [Thread-7] HikariPool-2 - Shutdown initiated...
+[2022-12-29T16:25:19.019Z] [INFO] com.zaxxer.hikari.HikariDataSource [Thread-7] HikariPool-2 - Shutdown completed.
+[2022-12-29T16:25:19.019Z] [INFO] com.todo.raul.TodoApiApplication [restartedMain] Starting TodoApiApplication using Java 17.0.1 on DESKTOP-FAMG7R6 with PID 22084 (C:\Users\raulj\OneDrive\Documentos\TCS\USAASchool\Spring_with_springboot\todo-api\target\classes started by raulj in C:\Users\raulj\OneDrive\Documentos\TCS\USAASchool\Spring_with_springboot\todo-api)
+[2022-12-29T16:25:19.019Z] [INFO] com.todo.raul.TodoApiApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+[2022-12-29T16:25:19.019Z] [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-12-29T16:25:19.019Z] [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 10 ms. Found 2 JPA repository interfaces.
+[2022-12-29T16:25:19.019Z] [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+[2022-12-29T16:25:19.019Z] [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+[2022-12-29T16:25:19.019Z] [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.70]
+[2022-12-29T16:25:19.019Z] [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+[2022-12-29T16:25:19.019Z] [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 263 ms
+[2022-12-29T16:25:19.019Z] [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-12-29T16:25:19.019Z] [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Starting...
+[2022-12-29T16:25:19.019Z] [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Start completed.
+[2022-12-29T16:25:19.019Z] [INFO] org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+[2022-12-29T16:25:19.019Z] [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-12-29T16:25:19.019Z] [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-12-29T16:25:19.019Z] [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-12-29T16:25:19.019Z] [INFO] org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@20768d84, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@554a1840, org.springframework.security.web.context.SecurityContextPersistenceFilter@482cbc68, org.springframework.security.web.header.HeaderWriterFilter@468c88f4, org.springframework.web.filter.CorsFilter@562b1ef6, org.springframework.security.web.authentication.logout.LogoutFilter@18c59420, com.todo.raul.config.JWTAuthenticationFilter@48a9711f, com.todo.raul.config.JWTAuthorizationFilter@5ca7df23, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1ab1621, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@23c2f5c8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@59aa54ef, org.springframework.security.web.session.SessionManagementFilter@6bafbb93, org.springframework.security.web.access.ExceptionTranslationFilter@52e375b1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@892c1c5]
+[2022-12-29T16:25:19.019Z] [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+[2022-12-29T16:25:19.019Z] [INFO] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 1 endpoint(s) beneath base path '/actuator'
+[2022-12-29T16:25:19.019Z] [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+[2022-12-29T16:25:19.019Z] [INFO] com.todo.raul.TodoApiApplication [restartedMain] Started TodoApiApplication in 0.576 seconds (JVM running for 99.738)
+[2022-12-29T16:25:19.019Z] [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+[2022-12-29T16:25:22.022Z] [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-4] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-12-29T16:25:22.022Z] [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-4] Initializing Servlet 'dispatcherServlet'
+[2022-12-29T16:25:22.022Z] [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-4] Completed initialization in 1 ms
+[2022-12-29T16:30:10.010Z] [INFO] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[2022-12-29T16:30:10.010Z] [INFO] org.apache.catalina.core.StandardService [Thread-11] Stopping service [Tomcat]
+[2022-12-29T16:30:10.010Z] [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [Thread-11] Destroying Spring FrameworkServlet 'dispatcherServlet'
+[2022-12-29T16:30:10.010Z] [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [Thread-11] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-12-29T16:30:10.010Z] [INFO] com.zaxxer.hikari.HikariDataSource [Thread-11] HikariPool-3 - Shutdown initiated...
+[2022-12-29T16:30:10.010Z] [INFO] com.zaxxer.hikari.HikariDataSource [Thread-11] HikariPool-3 - Shutdown completed.
+[2022-12-29T16:30:10.010Z] [INFO] com.todo.raul.TodoApiApplication [restartedMain] Starting TodoApiApplication using Java 17.0.1 on DESKTOP-FAMG7R6 with PID 22084 (C:\Users\raulj\OneDrive\Documentos\TCS\USAASchool\Spring_with_springboot\todo-api\target\classes started by raulj in C:\Users\raulj\OneDrive\Documentos\TCS\USAASchool\Spring_with_springboot\todo-api)
+[2022-12-29T16:30:10.010Z] [INFO] com.todo.raul.TodoApiApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+[2022-12-29T16:30:11.011Z] [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-12-29T16:30:11.011Z] [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 10 ms. Found 2 JPA repository interfaces.
+[2022-12-29T16:30:11.011Z] [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+[2022-12-29T16:30:11.011Z] [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+[2022-12-29T16:30:11.011Z] [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.70]
+[2022-12-29T16:30:11.011Z] [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+[2022-12-29T16:30:11.011Z] [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 315 ms
+[2022-12-29T16:30:11.011Z] [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-12-29T16:30:11.011Z] [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-4 - Starting...
+[2022-12-29T16:30:11.011Z] [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-4 - Start completed.
+[2022-12-29T16:30:11.011Z] [INFO] org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+[2022-12-29T16:30:11.011Z] [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-12-29T16:30:11.011Z] [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-12-29T16:30:11.011Z] [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-12-29T16:30:11.011Z] [INFO] org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2390204, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@374362cf, org.springframework.security.web.context.SecurityContextPersistenceFilter@47da5df4, org.springframework.security.web.header.HeaderWriterFilter@6618c0f7, org.springframework.web.filter.CorsFilter@355454ab, org.springframework.security.web.authentication.logout.LogoutFilter@420202c6, com.todo.raul.config.JWTAuthenticationFilter@36b4e239, com.todo.raul.config.JWTAuthorizationFilter@7cd7efc9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3bacf8d6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1b93982c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@502eaf86, org.springframework.security.web.session.SessionManagementFilter@150b3ed3, org.springframework.security.web.access.ExceptionTranslationFilter@56b547ee, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@43b80b6b]
+[2022-12-29T16:30:11.011Z] [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+[2022-12-29T16:30:11.011Z] [INFO] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 3 endpoint(s) beneath base path '/actuator'
+[2022-12-29T16:30:11.011Z] [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+[2022-12-29T16:30:11.011Z] [INFO] com.todo.raul.TodoApiApplication [restartedMain] Started TodoApiApplication in 0.717 seconds (JVM running for 391.436)
+[2022-12-29T16:30:11.011Z] [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+[2022-12-29T16:30:18.018Z] [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-3] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-12-29T16:30:18.018Z] [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-3] Initializing Servlet 'dispatcherServlet'
+[2022-12-29T16:30:18.018Z] [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-3] Completed initialization in 1 ms
+[2022-12-29T16:31:07.007Z] [INFO] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[2022-12-29T16:31:07.007Z] [INFO] org.apache.catalina.core.StandardService [Thread-15] Stopping service [Tomcat]
+[2022-12-29T16:31:07.007Z] [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [Thread-15] Destroying Spring FrameworkServlet 'dispatcherServlet'
+[2022-12-29T16:31:07.007Z] [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [Thread-15] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-12-29T16:31:07.007Z] [INFO] com.zaxxer.hikari.HikariDataSource [Thread-15] HikariPool-4 - Shutdown initiated...
+[2022-12-29T16:31:07.007Z] [INFO] com.zaxxer.hikari.HikariDataSource [Thread-15] HikariPool-4 - Shutdown completed.
+[2022-12-29T16:31:07.007Z] [INFO] com.todo.raul.TodoApiApplication [restartedMain] Starting TodoApiApplication using Java 17.0.1 on DESKTOP-FAMG7R6 with PID 22084 (C:\Users\raulj\OneDrive\Documentos\TCS\USAASchool\Spring_with_springboot\todo-api\target\classes started by raulj in C:\Users\raulj\OneDrive\Documentos\TCS\USAASchool\Spring_with_springboot\todo-api)
+[2022-12-29T16:31:07.007Z] [INFO] com.todo.raul.TodoApiApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+[2022-12-29T16:31:07.007Z] [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-12-29T16:31:07.007Z] [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 8 ms. Found 2 JPA repository interfaces.
+[2022-12-29T16:31:07.007Z] [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+[2022-12-29T16:31:07.007Z] [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+[2022-12-29T16:31:07.007Z] [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.70]
+[2022-12-29T16:31:07.007Z] [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+[2022-12-29T16:31:07.007Z] [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 254 ms
+[2022-12-29T16:31:07.007Z] [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-12-29T16:31:07.007Z] [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-5 - Starting...
+[2022-12-29T16:31:07.007Z] [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-5 - Start completed.
+[2022-12-29T16:31:07.007Z] [INFO] org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+[2022-12-29T16:31:07.007Z] [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-12-29T16:31:07.007Z] [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-12-29T16:31:07.007Z] [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-12-29T16:31:07.007Z] [INFO] org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7bc7c130, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@537a3aa4, org.springframework.security.web.context.SecurityContextPersistenceFilter@1f271d68, org.springframework.security.web.header.HeaderWriterFilter@48fe401a, org.springframework.web.filter.CorsFilter@419cb4f4, org.springframework.security.web.authentication.logout.LogoutFilter@2a8b4b63, com.todo.raul.config.JWTAuthenticationFilter@37032502, com.todo.raul.config.JWTAuthorizationFilter@7288bc93, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5d6a62fb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@67ae17dc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@70a5177c, org.springframework.security.web.session.SessionManagementFilter@64c1ccb7, org.springframework.security.web.access.ExceptionTranslationFilter@7c17c314, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@14ac48a5]
+[2022-12-29T16:31:07.007Z] [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+[2022-12-29T16:31:07.007Z] [INFO] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 3 endpoint(s) beneath base path '/actuator'
+[2022-12-29T16:31:07.007Z] [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+[2022-12-29T16:31:07.007Z] [INFO] com.todo.raul.TodoApiApplication [restartedMain] Started TodoApiApplication in 0.563 seconds (JVM running for 447.725)
+[2022-12-29T16:31:07.007Z] [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+[2022-12-29T16:31:15.015Z] [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-12-29T16:31:15.015Z] [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+[2022-12-29T16:31:15.015Z] [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+[2022-12-29T16:31:31.031Z] [INFO] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[2022-12-29T16:31:31.031Z] [INFO] org.apache.catalina.core.StandardService [Thread-19] Stopping service [Tomcat]
+[2022-12-29T16:31:31.031Z] [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [Thread-19] Destroying Spring FrameworkServlet 'dispatcherServlet'
+[2022-12-29T16:31:31.031Z] [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [Thread-19] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-12-29T16:31:31.031Z] [INFO] com.zaxxer.hikari.HikariDataSource [Thread-19] HikariPool-5 - Shutdown initiated...
+[2022-12-29T16:31:31.031Z] [INFO] com.zaxxer.hikari.HikariDataSource [Thread-19] HikariPool-5 - Shutdown completed.
+[2022-12-29T16:31:31.031Z] [INFO] com.todo.raul.TodoApiApplication [restartedMain] Starting TodoApiApplication using Java 17.0.1 on DESKTOP-FAMG7R6 with PID 22084 (C:\Users\raulj\OneDrive\Documentos\TCS\USAASchool\Spring_with_springboot\todo-api\target\classes started by raulj in C:\Users\raulj\OneDrive\Documentos\TCS\USAASchool\Spring_with_springboot\todo-api)
+[2022-12-29T16:31:31.031Z] [INFO] com.todo.raul.TodoApiApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+[2022-12-29T16:31:32.032Z] [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-12-29T16:31:32.032Z] [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 9 ms. Found 2 JPA repository interfaces.
+[2022-12-29T16:31:32.032Z] [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+[2022-12-29T16:31:32.032Z] [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+[2022-12-29T16:31:32.032Z] [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.70]
+[2022-12-29T16:31:32.032Z] [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+[2022-12-29T16:31:32.032Z] [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 266 ms
+[2022-12-29T16:31:32.032Z] [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-12-29T16:31:32.032Z] [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-6 - Starting...
+[2022-12-29T16:31:32.032Z] [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-6 - Start completed.
+[2022-12-29T16:31:32.032Z] [INFO] org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+[2022-12-29T16:31:32.032Z] [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-12-29T16:31:32.032Z] [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-12-29T16:31:32.032Z] [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-12-29T16:31:32.032Z] [INFO] org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@46dc568b, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@59614ff8, org.springframework.security.web.context.SecurityContextPersistenceFilter@167b26d3, org.springframework.security.web.header.HeaderWriterFilter@17e9c88c, org.springframework.web.filter.CorsFilter@5bb2434a, org.springframework.security.web.authentication.logout.LogoutFilter@3f6fe081, com.todo.raul.config.JWTAuthenticationFilter@4b715804, com.todo.raul.config.JWTAuthorizationFilter@6f3d37ef, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@49c7aca, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5d686f7d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3c70ab7f, org.springframework.security.web.session.SessionManagementFilter@17a741f0, org.springframework.security.web.access.ExceptionTranslationFilter@646ed36d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@700c1bfb]
+[2022-12-29T16:31:32.032Z] [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+[2022-12-29T16:31:32.032Z] [INFO] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 3 endpoint(s) beneath base path '/actuator'
+[2022-12-29T16:31:32.032Z] [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+[2022-12-29T16:31:32.032Z] [INFO] com.todo.raul.TodoApiApplication [restartedMain] Started TodoApiApplication in 0.601 seconds (JVM running for 472.341)
+[2022-12-29T16:31:32.032Z] [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+[2022-12-29T16:31:35.035Z] [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-12-29T16:31:35.035Z] [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+[2022-12-29T16:31:35.035Z] [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+[2022-12-29T16:33:20.020Z] [INFO] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[2022-12-29T16:33:20.020Z] [INFO] org.apache.catalina.core.StandardService [Thread-23] Stopping service [Tomcat]
+[2022-12-29T16:33:20.020Z] [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [Thread-23] Destroying Spring FrameworkServlet 'dispatcherServlet'
+[2022-12-29T16:33:20.020Z] [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [Thread-23] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-12-29T16:33:20.020Z] [INFO] com.zaxxer.hikari.HikariDataSource [Thread-23] HikariPool-6 - Shutdown initiated...
+[2022-12-29T16:33:20.020Z] [INFO] com.zaxxer.hikari.HikariDataSource [Thread-23] HikariPool-6 - Shutdown completed.
+[2022-12-29T16:33:20.020Z] [INFO] com.todo.raul.TodoApiApplication [restartedMain] Starting TodoApiApplication using Java 17.0.1 on DESKTOP-FAMG7R6 with PID 22084 (C:\Users\raulj\OneDrive\Documentos\TCS\USAASchool\Spring_with_springboot\todo-api\target\classes started by raulj in C:\Users\raulj\OneDrive\Documentos\TCS\USAASchool\Spring_with_springboot\todo-api)
+[2022-12-29T16:33:20.020Z] [INFO] com.todo.raul.TodoApiApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+[2022-12-29T16:33:20.020Z] [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-12-29T16:33:20.020Z] [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 8 ms. Found 2 JPA repository interfaces.
+[2022-12-29T16:33:20.020Z] [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+[2022-12-29T16:33:20.020Z] [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+[2022-12-29T16:33:20.020Z] [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.70]
+[2022-12-29T16:33:20.020Z] [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+[2022-12-29T16:33:20.020Z] [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 256 ms
+[2022-12-29T16:33:20.020Z] [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-12-29T16:33:20.020Z] [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-7 - Starting...
+[2022-12-29T16:33:20.020Z] [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-7 - Start completed.
+[2022-12-29T16:33:20.020Z] [INFO] org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+[2022-12-29T16:33:20.020Z] [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-12-29T16:33:20.020Z] [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-12-29T16:33:20.020Z] [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-12-29T16:33:20.020Z] [INFO] org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@418e1284, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3d29e373, org.springframework.security.web.context.SecurityContextPersistenceFilter@593d3425, org.springframework.security.web.header.HeaderWriterFilter@55f2503b, org.springframework.web.filter.CorsFilter@7cd5d582, org.springframework.security.web.authentication.logout.LogoutFilter@259d6244, com.todo.raul.config.JWTAuthenticationFilter@77f7119b, com.todo.raul.config.JWTAuthorizationFilter@46dc37d3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@42b01593, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@584e676, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@349c7600, org.springframework.security.web.session.SessionManagementFilter@523853be, org.springframework.security.web.access.ExceptionTranslationFilter@533c4bd, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5c7aea61]
+[2022-12-29T16:33:20.020Z] [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+[2022-12-29T16:33:20.020Z] [INFO] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 14 endpoint(s) beneath base path '/actuator'
+[2022-12-29T16:33:21.021Z] [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+[2022-12-29T16:33:21.021Z] [INFO] com.todo.raul.TodoApiApplication [restartedMain] Started TodoApiApplication in 0.57 seconds (JVM running for 580.783)
+[2022-12-29T16:33:21.021Z] [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   CachesEndpointAutoConfiguration#cachesEndpointWebExtension matched:
+      - @ConditionalOnBean (types: org.springframework.boot.actuate.cache.CachesEndpoint; SearchStrategy: all) found bean 'cachesEndpoint'; @ConditionalOnMissingBean (types: org.springframework.boot.actuate.cache.CachesEndpointWebExtension; SearchStrategy: all) did not find any beans (OnBeanCondition)
+      - @ConditionalOnAvailableEndpoint marked as exposed by a 'management.endpoints.web.exposure' property (OnAvailableEndpointCondition)
+
+   ConfigurationPropertiesReportEndpointAutoConfiguration#configurationPropertiesReportEndpointWebExtension matched:
+      - @ConditionalOnBean (types: org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpoint; SearchStrategy: all) found bean 'configurationPropertiesReportEndpoint'; @ConditionalOnMissingBean (types: org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointWebExtension; SearchStrategy: all) did not find any beans (OnBeanCondition)
+      - @ConditionalOnAvailableEndpoint marked as exposed by a 'management.endpoints.web.exposure' property (OnAvailableEndpointCondition)
+
+   EnvironmentEndpointAutoConfiguration#environmentEndpointWebExtension matched:
+      - @ConditionalOnBean (types: org.springframework.boot.actuate.env.EnvironmentEndpoint; SearchStrategy: all) found bean 'environmentEndpoint'; @ConditionalOnMissingBean (types: org.springframework.boot.actuate.env.EnvironmentEndpointWebExtension; SearchStrategy: all) did not find any beans (OnBeanCondition)
+      - @ConditionalOnAvailableEndpoint marked as exposed by a 'management.endpoints.web.exposure' property (OnAvailableEndpointCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+[2022-12-29T16:33:23.023Z] [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-12-29T16:33:23.023Z] [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+[2022-12-29T16:33:23.023Z] [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Completed initialization in 1 ms
+[2022-12-29T16:36:43.043Z] [INFO] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[2022-12-29T16:36:43.043Z] [INFO] org.apache.catalina.core.StandardService [Thread-27] Stopping service [Tomcat]
+[2022-12-29T16:36:43.043Z] [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [Thread-27] Destroying Spring FrameworkServlet 'dispatcherServlet'
+[2022-12-29T16:36:43.043Z] [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [Thread-27] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-12-29T16:36:43.043Z] [INFO] com.zaxxer.hikari.HikariDataSource [Thread-27] HikariPool-7 - Shutdown initiated...
+[2022-12-29T16:36:43.043Z] [INFO] com.zaxxer.hikari.HikariDataSource [Thread-27] HikariPool-7 - Shutdown completed.
+[2022-12-29T16:36:43.043Z] [INFO] com.todo.raul.TodoApiApplication [restartedMain] Starting TodoApiApplication using Java 17.0.1 on DESKTOP-FAMG7R6 with PID 22084 (C:\Users\raulj\OneDrive\Documentos\TCS\USAASchool\Spring_with_springboot\todo-api\target\classes started by raulj in C:\Users\raulj\OneDrive\Documentos\TCS\USAASchool\Spring_with_springboot\todo-api)
+[2022-12-29T16:36:43.043Z] [INFO] com.todo.raul.TodoApiApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+[2022-12-29T16:36:43.043Z] [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-12-29T16:36:43.043Z] [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 11 ms. Found 2 JPA repository interfaces.
+[2022-12-29T16:36:44.044Z] [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+[2022-12-29T16:36:44.044Z] [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+[2022-12-29T16:36:44.044Z] [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.70]
+[2022-12-29T16:36:44.044Z] [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+[2022-12-29T16:36:44.044Z] [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 404 ms
+[2022-12-29T16:36:44.044Z] [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-12-29T16:36:44.044Z] [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-8 - Starting...
+[2022-12-29T16:36:44.044Z] [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-8 - Start completed.
+[2022-12-29T16:36:44.044Z] [INFO] org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+[2022-12-29T16:36:44.044Z] [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-12-29T16:36:44.044Z] [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-12-29T16:36:44.044Z] [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-12-29T16:36:44.044Z] [INFO] org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4ad4649b, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@bc9a872, org.springframework.security.web.context.SecurityContextPersistenceFilter@14116084, org.springframework.security.web.header.HeaderWriterFilter@33f3a786, org.springframework.web.filter.CorsFilter@4eab93ae, org.springframework.security.web.authentication.logout.LogoutFilter@2f900228, com.todo.raul.config.JWTAuthenticationFilter@41749b63, com.todo.raul.config.JWTAuthorizationFilter@28eddf6a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2bb4dc75, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5d59112, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6e21683d, org.springframework.security.web.session.SessionManagementFilter@7b69d27d, org.springframework.security.web.access.ExceptionTranslationFilter@5ffc1cd7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7b1e99c9]
+[2022-12-29T16:36:44.044Z] [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+[2022-12-29T16:36:44.044Z] [INFO] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 14 endpoint(s) beneath base path '/actuator'
+[2022-12-29T16:36:44.044Z] [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+[2022-12-29T16:36:44.044Z] [INFO] com.todo.raul.TodoApiApplication [restartedMain] Started TodoApiApplication in 0.768 seconds (JVM running for 784.147)
+[2022-12-29T16:36:44.044Z] [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+[2022-12-29T16:36:50.050Z] [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-12-29T16:36:50.050Z] [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+[2022-12-29T16:36:50.050Z] [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Completed initialization in 2 ms
+[2022-12-29T16:38:39.039Z] [INFO] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[2022-12-29T16:38:39.039Z] [INFO] org.apache.catalina.core.StandardService [Thread-31] Stopping service [Tomcat]
+[2022-12-29T16:38:39.039Z] [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [Thread-31] Destroying Spring FrameworkServlet 'dispatcherServlet'
+[2022-12-29T16:38:39.039Z] [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [Thread-31] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-12-29T16:38:39.039Z] [INFO] com.zaxxer.hikari.HikariDataSource [Thread-31] HikariPool-8 - Shutdown initiated...
+[2022-12-29T16:38:39.039Z] [INFO] com.zaxxer.hikari.HikariDataSource [Thread-31] HikariPool-8 - Shutdown completed.
+[2022-12-29T16:38:39.039Z] [INFO] com.todo.raul.TodoApiApplication [restartedMain] Starting TodoApiApplication using Java 17.0.1 on DESKTOP-FAMG7R6 with PID 22084 (C:\Users\raulj\OneDrive\Documentos\TCS\USAASchool\Spring_with_springboot\todo-api\target\classes started by raulj in C:\Users\raulj\OneDrive\Documentos\TCS\USAASchool\Spring_with_springboot\todo-api)
+[2022-12-29T16:38:39.039Z] [INFO] com.todo.raul.TodoApiApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+[2022-12-29T16:38:39.039Z] [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-12-29T16:38:39.039Z] [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 8 ms. Found 2 JPA repository interfaces.
+[2022-12-29T16:38:39.039Z] [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+[2022-12-29T16:38:39.039Z] [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+[2022-12-29T16:38:39.039Z] [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.70]
+[2022-12-29T16:38:39.039Z] [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+[2022-12-29T16:38:39.039Z] [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 265 ms
+[2022-12-29T16:38:39.039Z] [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-12-29T16:38:39.039Z] [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-9 - Starting...
+[2022-12-29T16:38:39.039Z] [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-9 - Start completed.
+[2022-12-29T16:38:39.039Z] [INFO] org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+[2022-12-29T16:38:39.039Z] [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-12-29T16:38:39.039Z] [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-12-29T16:38:39.039Z] [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-12-29T16:38:39.039Z] [INFO] org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5112c50d, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@66a50b4b, org.springframework.security.web.context.SecurityContextPersistenceFilter@e1d8084, org.springframework.security.web.header.HeaderWriterFilter@5ea41904, org.springframework.web.filter.CorsFilter@15bf98fa, org.springframework.security.web.authentication.logout.LogoutFilter@6e01c1de, com.todo.raul.config.JWTAuthenticationFilter@112fb9b8, com.todo.raul.config.JWTAuthorizationFilter@56522c3d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5fe43c7f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@21f672be, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@18638aef, org.springframework.security.web.session.SessionManagementFilter@3693665b, org.springframework.security.web.access.ExceptionTranslationFilter@7ec5fdad, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@71aea742]
+[2022-12-29T16:38:39.039Z] [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+[2022-12-29T16:38:39.039Z] [INFO] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 14 endpoint(s) beneath base path '/actuator'
+[2022-12-29T16:38:39.039Z] [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+[2022-12-29T16:38:39.039Z] [INFO] com.todo.raul.TodoApiApplication [restartedMain] Started TodoApiApplication in 0.603 seconds (JVM running for 899.467)
+[2022-12-29T16:38:39.039Z] [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   InfoContributorAutoConfiguration#envInfoContributor matched:
+      - @ConditionalOnEnabledInfoContributor management.info.env.enabled is true (OnEnabledInfoContributorCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+[2022-12-29T16:38:51.051Z] [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-12-29T16:38:51.051Z] [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+[2022-12-29T16:38:51.051Z] [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+[2022-12-29T16:40:47.047Z] [INFO] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[2022-12-29T16:40:47.047Z] [INFO] org.apache.catalina.core.StandardService [Thread-35] Stopping service [Tomcat]
+[2022-12-29T16:40:47.047Z] [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [Thread-35] Destroying Spring FrameworkServlet 'dispatcherServlet'
+[2022-12-29T16:40:47.047Z] [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [Thread-35] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-12-29T16:40:47.047Z] [INFO] com.zaxxer.hikari.HikariDataSource [Thread-35] HikariPool-9 - Shutdown initiated...
+[2022-12-29T16:40:47.047Z] [INFO] com.zaxxer.hikari.HikariDataSource [Thread-35] HikariPool-9 - Shutdown completed.
+[2022-12-29T16:40:47.047Z] [INFO] com.todo.raul.TodoApiApplication [restartedMain] Starting TodoApiApplication using Java 17.0.1 on DESKTOP-FAMG7R6 with PID 22084 (C:\Users\raulj\OneDrive\Documentos\TCS\USAASchool\Spring_with_springboot\todo-api\target\classes started by raulj in C:\Users\raulj\OneDrive\Documentos\TCS\USAASchool\Spring_with_springboot\todo-api)
+[2022-12-29T16:40:47.047Z] [INFO] com.todo.raul.TodoApiApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+[2022-12-29T16:40:48.048Z] [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-12-29T16:40:48.048Z] [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 8 ms. Found 2 JPA repository interfaces.
+[2022-12-29T16:40:48.048Z] [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+[2022-12-29T16:40:48.048Z] [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+[2022-12-29T16:40:48.048Z] [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.70]
+[2022-12-29T16:40:48.048Z] [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+[2022-12-29T16:40:48.048Z] [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 255 ms
+[2022-12-29T16:40:48.048Z] [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-12-29T16:40:48.048Z] [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-10 - Starting...
+[2022-12-29T16:40:48.048Z] [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-10 - Start completed.
+[2022-12-29T16:40:48.048Z] [INFO] org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+[2022-12-29T16:40:48.048Z] [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-12-29T16:40:48.048Z] [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-12-29T16:40:48.048Z] [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-12-29T16:40:48.048Z] [INFO] org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6f62db29, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@19715ed8, org.springframework.security.web.context.SecurityContextPersistenceFilter@6d9bdb0f, org.springframework.security.web.header.HeaderWriterFilter@38d2eca6, org.springframework.web.filter.CorsFilter@29a3f44, org.springframework.security.web.authentication.logout.LogoutFilter@66c748c6, com.todo.raul.config.JWTAuthenticationFilter@4d9d0f84, com.todo.raul.config.JWTAuthorizationFilter@345f2e8d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@fd7f1ee, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@20cf9b6e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@274b3140, org.springframework.security.web.session.SessionManagementFilter@1a4df80b, org.springframework.security.web.access.ExceptionTranslationFilter@64a0c1cb, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@164b307b]
+[2022-12-29T16:40:48.048Z] [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+[2022-12-29T16:40:48.048Z] [INFO] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 14 endpoint(s) beneath base path '/actuator'
+[2022-12-29T16:40:48.048Z] [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+[2022-12-29T16:40:48.048Z] [INFO] com.todo.raul.TodoApiApplication [restartedMain] Started TodoApiApplication in 0.601 seconds (JVM running for 1028.251)
+[2022-12-29T16:40:48.048Z] [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+[2022-12-29T16:40:54.054Z] [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-3] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-12-29T16:40:54.054Z] [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-3] Initializing Servlet 'dispatcherServlet'
+[2022-12-29T16:40:54.054Z] [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-3] Completed initialization in 0 ms
+[2022-12-29T16:57:32.032Z] [INFO] com.todo.raul.controller.UserController [http-nio-8080-exec-7] User created
+[2022-12-29T16:58:02.002Z] [INFO] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(70)-127.0.0.1] Application shutdown requested.
+[2022-12-29T16:58:02.002Z] [INFO] org.apache.catalina.core.StandardService [RMI TCP Connection(70)-127.0.0.1] Stopping service [Tomcat]
+[2022-12-29T16:58:02.002Z] [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [RMI TCP Connection(70)-127.0.0.1] Destroying Spring FrameworkServlet 'dispatcherServlet'
+[2022-12-29T16:58:02.002Z] [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(70)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-12-29T16:58:02.002Z] [INFO] com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(70)-127.0.0.1] HikariPool-10 - Shutdown initiated...
+[2022-12-29T16:58:02.002Z] [INFO] com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(70)-127.0.0.1] HikariPool-10 - Shutdown completed.
